@@ -1,0 +1,49 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', Montserrat;
+	font-weight: 500;
+}
+
+.donation-message {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.donation-message span {
+	color: white;
+	font-size: 2vw;
+	margin: 0;
+}
+.donation-message span.command {
+	font-size: 3vw;
+}
+.donation-message span.text {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.donation-message img.r4n-logo {
+	height: 81px;
+	margin-right: 20px;
+}
+.donation-message .logo-wrap {
+	width: 190px;
+	background: white;
+	border-radius: 6px;
+	margin-left: 20px;
+}
+	.donation-message .logo-wrap img {
+		width: 100%;
+	}
+
+.short .donation-message span {
+	font-size: 10vw;
+}
+.short .donation-message span.command {
+	font-size: 8vw;
+}

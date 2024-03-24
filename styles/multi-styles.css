@@ -1,0 +1,94 @@
+.container.multi-gaming {
+	display: flex;
+	width: 100%;
+	align-items: space-between;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+	.multi-gaming.duo .column {
+		position: relative;
+		width: calc(42% - 10px);
+		height: calc(100% - 120px);
+	}
+	.multi-gaming.duo .column.mid {
+		width: 16%;
+	}
+
+.multi-gaming.quad {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+	.multi-gaming.quad .game-feeds {
+		width: 571px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+		.multi-gaming.quad .game-feeds .column {
+			width: 100%;
+		}
+		.multi-gaming.quad .game-feeds .game-view {
+			width: unset;
+			max-height: 500px;
+		}
+	.multi-gaming.quad .trackers {
+		width: 698px;
+		background: rgba(3, 3, 24, .5);
+		height: 100%;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+		.multi-gaming.quad .trackers .gamer-group {
+			height: calc(50% - 60px);
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: space-between;
+		}
+			.multi-gaming.quad .trackers .gamer-group .gamer-id {
+				width: calc(50% - 10px);
+				height: 55px;
+			}
+		.multi-gaming.quad .trackers .gamer-group.last {
+			align-items: flex-end;
+		}
+.n64 .multi-gaming.quad .game-feeds {
+	width: 610px;
+}
+.n64 .multi-gaming.quad .trackers {
+	width: 620px;
+}
+
+.cams .multi-gaming.duo .camera {
+	top: 0;
+	width: 390px;
+	float: right;
+	clear: none;
+}
+.cams .multi-gaming.duo .gamer-id {
+	width: 350px;
+	top: 60px;
+	position: relative;
+	float: left;
+}
+.cams .multi-gaming.duo .column {
+	position: relative;
+}
+.cams .multi-gaming.duo .game-view {
+	clear: both;
+	width: 95%;
+	position: absolute;
+	bottom: 12px;
+	right: 0;
+}
+.n64.cams .multi-gaming.duo .game-view {
+	bottom: 40px;
+	width: 100%;
+}

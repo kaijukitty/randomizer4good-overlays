@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', Montserrat;
+	font-weight: 500;
+}
+
+body {
+	margin: 0;
+	background: rgb(54, 54, 75);
+	color: white;
+}
+
+.body {
+	width: 1920px;
+	height: 1080px;
+	background: rgb(54, 54, 75);
+	overflow: hidden;
+}
+
+.background-elements {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	top: 0; left: 0;
+}
+	.background-elements img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		position: relative;
+		z-index: 2;
+		opacity: 0.8;
+	}
+
+.container {
+	padding: 40px;
+	width: 1920px;
+	height: 1080px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 4;
+	overflow: hidden;
+}
+
+.container .camera {
+	aspect-ratio: 1920 / 1080;
+}
+
+.container .game-view,
+.container .top-screen,
+.container .bottom-screen,
+.container .camera,
+.container .donation-tracker,
+.container .long-tracker {
+	border: 8px solid rgba(255, 255, 255, .65);
+	border-radius: 6px;
+	position: relative;
+}
+.container .game-view:before,
+.container .top-screen:before,
+.container .bottom-screen:before,
+.container .camera:before,
+.container .donation-tracker:before,
+.container .long-tracker:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0.2;
+	position: absolute;
+	z-index: 4;
+	left: 0;
+	top: 0;
+}
+.container .donation-tracker:before {
+	background: rgba(3, 3, 24, .45);
+	opacity: 1;
+}
+
+.container .donation-tracker {
+	width: 100%;
+	height: 120px;
+}
+.container .donation-tracker .slide-wrap {
+	padding: 0 15px;
+	position: relative;
+	z-index: 6;
+	text-align: center;
+}
+.container .donation-tracker .slide {
+	text-align: center;
+	overflow: hidden;
+}
+.container .donation-tracker iframe {
+	width: 1214px;
+	height: 104px;
+	border: none;
+	overflow: hidden;
+	z-index: 6;
+	position: relative;
+	margin: 0 auto;
+}
+.container .donation-tracker.ds iframe {
+	width: 1102px;
+}
+.container .donation-tracker.short iframe {
+	width: 652px;
+}
+.container .donation-tracker.x-short iframe {
+	width: 574px;
+}
+.container .donation-tracker img.r4n-logo {
+	max-height: 90px;
+	display: inline-block;
+	top: 10px;
+	position: relative;
+}
+
+.gamer-id {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background: rgba(3, 3, 24, .5);
+	height: 60px;
+	width: 100%;
+	border-radius: 4px;
+	position: relative;
+	font-size: 22px;
+}
+.gamer-id img {
+	height: 80%;
+	width: auto;
+	position: relative;
+	left: 6px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.modern .game-view {
+	aspect-ratio: 1920/1080;
+}
+.snes .game-view {
+	aspect-ratio: 8/7;
+}
+.n64 .game-view {
+	aspect-ratio: 4/3;
+}
+
+.single-gaming .gamer-id {
+	font-size: 28px;
+}
