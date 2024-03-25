@@ -12,6 +12,7 @@
 		.container.single-gaming .assets-window {
 			height: 100%;
 			width: 100%;
+			position: relative;
 		}
 			.container.single-gaming .assets-window .camera {
 				aspect-ratio: 1920/1080;
@@ -19,6 +20,19 @@
 			}
 			.container.single-gaming .assets-window .item-tracker {
 				width: 100%;
+			}
+			.container.single-gaming .assets-window .charity-info {
+				width: 100%;
+				position: absolute;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+				flex-wrap: nowrap;
+				gap: 20px;
+				bottom: 8px;
+				left: 0;
+				height: 104px;
 			}
 	.container.single-gaming .right-section {
 		height: 100%;

@@ -87,51 +87,6 @@ body {
 	height: 120px;
 	overflow: hidden;
 }
-.container .donation-tracker .slide-wrap {
-	padding: 0 15px;
-	position: relative;
-	z-index: 6;
-	text-align: center;
-	height: 104px!important;
-	overflow: hidden;
-}
-.container .donation-tracker .slide {
-	text-align: center;
-	height: 104px!important;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.container .donation-tracker .tracker-slide {
-	padding: 15px 0 0;
-}
-.container .donation-tracker .recent-slide {
-	padding: 5px 0 0;
-}
-.container .donation-tracker iframe {
-	width: 1214px;
-	height: 104px!important;
-	border: none;
-	overflow: hidden;
-	z-index: 6;
-	position: relative;
-	margin: auto;
-}
-.container .donation-tracker.ds iframe {
-	width: 1102px;
-}
-.container .donation-tracker.short iframe {
-	width: 652px;
-}
-.container .donation-tracker.x-short iframe {
-	width: 574px;
-}
-.container .donation-tracker img.r4n-logo {
-	max-height: 90px;
-	display: inline-block;
-	position: relative;
-}
 
 .gamer-id {
 	display: flex;
@@ -142,7 +97,6 @@ body {
 	width: 100%;
 	border-radius: 4px;
 	position: relative;
-	font-size: 22px;
 }
 .gamer-id img {
 	height: 80%;
@@ -151,6 +105,21 @@ body {
 	left: 6px;
 	display: inline-block;
 	margin-right: 15px;
+}
+
+.charity-info img {
+	max-width: 100%;
+}
+.charity-info .logo-wrap-1,
+.charity-info .logo-wrap-2 {
+}
+.charity-info .logo-wrap-2 {
+	background: white;
+	border-radius: 8px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .modern .game-view {
