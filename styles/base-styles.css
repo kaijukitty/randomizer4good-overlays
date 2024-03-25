@@ -107,13 +107,11 @@ body {
 	margin-right: 15px;
 }
 
-.charity-info img {
+.logo-wrap-1 img,
+.logo-wrap-2 img {
 	max-width: 100%;
 }
-.charity-info .logo-wrap-1,
-.charity-info .logo-wrap-2 {
-}
-.charity-info .logo-wrap-2 {
+.logo-wrap-2 {
 	background: white;
 	border-radius: 8px;
 	padding: 10px;
@@ -134,4 +132,18 @@ body {
 
 .single-gaming .gamer-id {
 	font-size: 28px;
+}
+
+.donation-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+.donation-row .logo-wrap-1,
+.donation-row .logo-wrap-2 {
+	width: 250px;
+	min-width: 250px;
 }
