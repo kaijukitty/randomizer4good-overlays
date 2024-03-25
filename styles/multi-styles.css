@@ -18,34 +18,31 @@
 .multi-gaming.quad {
 	align-items: flex-start;
 	justify-content: space-between;
+	padding: 40px;
 }
 	.multi-gaming.quad .game-feeds {
 		width: 571px;
 		display: flex;
-		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		height: 100%;
+		height: calc(100% - 120px);
 	}
-		.multi-gaming.quad .game-feeds .column {
-			width: 100%;
-		}
 		.multi-gaming.quad .game-feeds .game-view {
 			width: unset;
-			max-height: 500px;
+			height: 50%;
 		}
 	.multi-gaming.quad .trackers {
 		width: 698px;
 		background: rgba(3, 3, 24, .5);
-		height: 100%;
+		height: calc(100% - 120px);
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
 		flex-wrap: wrap;
 	}
 		.multi-gaming.quad .trackers .gamer-group {
-			height: calc(50% - 60px);
+			height: 50%;
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
@@ -59,6 +56,10 @@
 		.multi-gaming.quad .trackers .gamer-group.last {
 			align-items: flex-end;
 		}
+	.multi-gaming.quad .donation-row {
+		height: 100px;
+		margin-top: 20px;
+	}
 .n64 .multi-gaming.quad .game-feeds {
 	width: 610px;
 }

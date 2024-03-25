@@ -84,7 +84,7 @@ body {
 
 .container .donation-tracker {
 	width: 100%;
-	height: 120px;
+	height: 100%;
 	overflow: hidden;
 }
 
@@ -109,7 +109,8 @@ body {
 
 .logo-wrap-1 img,
 .logo-wrap-2 img {
-	max-width: 100%;
+	object-fit: contain;
+	height: 100%;
 }
 .logo-wrap-2 {
 	background: white;
@@ -141,9 +142,10 @@ body {
 	gap: 20px;
 	flex-wrap: nowrap;
 	width: 100%;
+	height: 120px;
 }
 .donation-row .logo-wrap-1,
 .donation-row .logo-wrap-2 {
-	width: 250px;
-	min-width: 250px;
+	height: 100%;
+	max-width: 250px;
 }
