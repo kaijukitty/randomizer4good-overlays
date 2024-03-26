@@ -15,38 +15,19 @@ After you have determined which overlay HTML you want to use, you should add it 
 
 Use the 'Local file' toggle option.
 
-Note that all relevant donation trackers are included in this bundle and do not need to be added as 
-separate OBS sources. 
+Source should be 1920x1080.
 
 ## Bot Command
-To replace the placeholder in the tracker slideshow for your custom bot command, you must edit the 
-text outlined in README > commpand-swap.png file.
-
-The files to edit are:
-* tracker-slides > donation-slide-sm.html
-* tracker-slides > donation-slide.html
-
-It is usually safest to do this via a find/replace action using a basic text editor. 
-DO NOT use dynamic text programs, such as Microsoft Word, to make these changes.
-
-You should not edit any of the surrounding text, elements, or containers around the player 
-labels in order to preserve the layout's appearance.
+Be sure to add a visible bot command for viewers to use that links to the main donation page.
+This link can be found in our Discord server.
 
 ## Player/Streamer Names
-Player Names can be swapped for the "Player 1, Player 2" etc text on the individual overlay 
-HTML files. An example of this is outlined in README > player-name.png file.
-
-It is usually safest to do this via a find/replace action using a basic text editor. 
-DO NOT use dynamic text programs, such as Microsoft Word, to make these changes.
-
-You should not edit any of the surrounding text, elements, or containers around the player 
-labels in order to preserve the layout's appearance.
+Player Names can be added next to the Randomizer4Good icons in each layout via a custom 
+text source.
 
 ### Disclaimers / Help Reference
-Please do not make any changes to these files, except in the case of changing 
-out the bot command text in the "tracker-slides" directory files, or entering 
-player names. Should you need a modified or different layout, please contact 
-DrDeadrewski or Ketikat for assistance on our 
+Please do not make any changes to these files. Should you need a modified or different layout, 
+please contact DrDeadrewski or Ketikat for assistance on our 
 [Discord server](https://discord.gg/8WdBHjad4w).
 
 THESE OVERLAYS ARE NOT TO BE USED FOR ANY PURPOSE OUTSIDE OF PARTICIPATION IN A 
