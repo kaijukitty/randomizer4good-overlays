@@ -111,6 +111,7 @@ body {
 .logo-wrap-2 img {
 	object-fit: contain;
 	height: 100%;
+	max-width: 100%;
 }
 .logo-wrap-2 {
 	background: white;
@@ -131,10 +132,6 @@ body {
 	aspect-ratio: 4/3;
 }
 
-.single-gaming .gamer-id {
-	font-size: 28px;
-}
-
 .donation-row {
 	display: flex;
 	align-items: center;
@@ -148,4 +145,5 @@ body {
 .donation-row .logo-wrap-2 {
 	height: 100%;
 	max-width: 250px;
+	min-width: 250px;
 }
